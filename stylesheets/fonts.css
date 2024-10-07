@@ -1,0 +1,59 @@
+@font-face{
+    font-family: "BrioniPro-Bold";
+    src: url(../fonts/brioni/BrioniPro-Bold.ttf);
+    font-style: ;
+    font-weight: ;
+}
+
+@font-face{
+    font-family: "BrioniPro-BoldItalic";
+    src: url(../fonts/brioni/BrioniPro-BoldItalic.ttf);
+    font-style: ;
+    font-weight: ;
+}
+
+@font-face{
+    font-family: "BrioniPro-Italic";
+    src: url(../fonts/brioni/BrioniPro-Italic.ttf);
+    font-style: ;
+    font-weight: ;
+}
+
+@font-face{
+    font-family: "BrioniPro-Light";
+    src: url(../fonts/brioni/BrioniPro-Light.ttf);
+    font-style: ;
+    font-weight: ;
+}
+
+@font-face{
+    font-family: "BrioniPro-LightItalic";
+    src: url(../fonts/brioni/BrioniPro-LightItalic.ttf);
+    font-style: ;
+    font-weight: ;
+}
+
+@font-face{
+    font-family: "BrioniPro-Medium";
+    src: url(../fonts/brioni/BrioniPro-Medium.ttf);
+    font-style: ;
+    font-weight: ;
+}
+
+@font-face{
+    font-family: "BrioniPro-MediumItalic";
+    src: url(../fonts/brioni/BrioniPro-MediumItalic.ttf);
+    font-style: ;
+    font-weight: ;
+}
+
+@font-face{
+    font-family: "BrioniPro-Regular";
+    src: url(../fonts/brioni/BrioniPro-Regular.ttf);
+    font-style: ;
+    font-weight: ;
+}
+
+h1{
+    font-family: ""
+}

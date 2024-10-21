@@ -11,7 +11,6 @@
 
 /* body::after {
     content: '';
-
     position: absolute;
     inset: -5px 0px 0px 42px;
     background-image: url('../img/макет.svg');
@@ -357,13 +356,51 @@ h1 {
     font-family: "BrioniPro-Regular";
     font-size: 20px;
     line-height: 130%;
-    margin-top: 17px;
+    margin-top: 18px;
 }
 
-.closedbookdescription:first-child {
+.closedbookdescription div:first-child {
     margin-bottom: 29px;
 }
 
 .closedcontent img {
-    margin-top: 281px;
+    margin-top: 282px;
+}
+
+/* .section-9 {
+    display: flex;
+    flex-direction: row;
+}  */
+
+.circlesmall {
+    width: 484px;
+    height: 487px;
+    rotate: 22deg;
+    margin-top: 244px;
+    /* margin-right: -400px; */
+    transform: translateX(185px) translateY(30px);
+}
+
+.circlemiddle {
+    width: 522px;
+    height: 334px;
+    margin-top: 668px;
+    margin-right: -505px;
+}
+
+.circlebig {
+    width: 939px;
+    height: 863px;
+    margin-top: 137px;
+}
+
+.section-10 {
+    display: flex;
+    flex-direction: row;
+    font-family: "BrioniPro-Regular";
+    font-size: 48px;
+}
+
+.section-10 p:first-child {
+    margin-right: 780px;
 }

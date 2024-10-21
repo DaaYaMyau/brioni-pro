@@ -2,11 +2,12 @@
     box-sizing: border-box;
 }
 
-/* body {
+ body {
     width: 1440px;
     display: block;
     margin: 0 auto;
-} */
+    border: 1px solid black;
+} 
 
 /* body::after {
     content: '';
@@ -14,10 +15,10 @@
     position: absolute;
     inset: -5px 0px 0px 42px;
     background-image: url('../img/макет.svg');
-    width: 1435px;
+    width: 1440px;
     height: 10472px;
     opacity: 0.2;
-}  */
+}   */
 
 .content {
     margin: 27px 60px 0 60px;
@@ -54,7 +55,7 @@
     font-family: "BrioniPro-Medium";
     display: flex;
     padding: 88px 82px 139px 110px;
-    justify-content: space-between;
+    justify-content: space-between; 
 }
 
 .firstpage {
@@ -65,8 +66,7 @@
 
 .firstpage p {
     font-size: 32px;
-    transform: rotateY(10deg);
-    transform: rotateZ(4deg);
+	transform: perspective(400px) rotateY(5deg) rotateZ(2.5deg);
 }
 
 .firstpage img {
@@ -79,12 +79,12 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    /* margin-left: 80px;  */
 }
 
 .secondpage p {
     font-size: 32px;
-    transform: rotateY(deg);
-    transform: rotateZ(-2.5deg);
+    transform: perspective(400px) rotateY(-6deg) rotateZ(-2deg) translate(-25px,0);
 }
 
 .secondpage img {
@@ -98,14 +98,7 @@
 }
 
 .bookauthors {
-    background-image: url(../img/bookauthors.svg);
-    background-repeat: no-repeat;
-    width: 1440px;
-    height: 651px;
-    display: flex;
-    flex-direction: column;
-    /* margin-top: 123px; */
-
+    margin-left: 60px;
 }
 
 h1 {
@@ -116,24 +109,261 @@ h1 {
 .first_columnauthors p {
     font-family: "BrioniPro-Light";
     font-size: 28px;
+    margin-top: 11px;
 }
 
 .second_columnauthors p {
     font-family: "BrioniPro-Light";
     font-size: 28px;
+    margin-top: 14px;
+    margin-left: 290px;
 }
 
+.authorsimg{
+    /*transform: translate(0px, 303px);*/
+    margin-top: -303px;
+}
 
 .section-4 {
     margin-top: 125px;
 }
 
+.section-4 h1 {
+    margin-bottom: -40px;
+    text-align: right;
+}
+
+.section-4 img {
+    margin-top: -210px;
+    margin-left: -60px;
+}
+
+.allglyphs {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+
+.glbook {
+    background: url(../img/titlebook.svg) no-repeat;
+    width: 227px;
+    height: 598px;
+    margin-left: -68px;
+}
+
+.glbook:first-child {
+    margin-left: 0px;
+}
+
+.glbook:last-child {
+    margin-left: 0px;
+    rotate: -20deg;
+    margin-top: -13px; 
+}
+
 .glyphs {
     font-family: "BrioniPro-Regular";
     font-size: 128px;
+    margin-top: 177px;
+    margin-left: 9px;
 }
 
 .description {
+    margin-top: 120px;
     font-family: "BrioniPro-Regular";
     font-size: 22px;
+    margin-left: 9px;
+}
+
+.section-5 {
+    display: flex;
+}
+
+.rolls {
+    display: flex;
+    flex-direction: column;
+}
+
+.firstroll, .secondroll {
+    background: url(../img/roll.svg) no-repeat;
+    width: 520px;
+    height: 121px;
+    font-family: "BrioniPro-Light";
+    font-size: 52px;
+}
+
+.firstroll {
+    rotate: -28deg;
+    margin-top: 316px;
+    margin-left: 37px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.firstroll p {
+    margin-left: 31px;
+    margin-bottom: 35px;
+}
+
+.secondroll {
+    margin-top: 272px;
+    rotate: 10deg;
+    margin-left: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.secondroll p {
+    margin-left: 27px;
+    margin-bottom: 28px;
+    rotate: 5deg;
+}
+
+.openedroll {
+    background: url(../img/openedscroll.svg) no-repeat;
+    width: 655px;
+    height: 826px;
+    margin-left: 55px;
+    margin-top: 136px;
+    font-family: "BrioniPro-Light";
+}
+
+.openrollp {
+    font-size: 28px;
+    margin-top: 130px;
+    margin-left: 51px;
+    rotate: -3deg;
+}
+
+.rollglfirst, .rollglsecond {
+    font-size: 46px;
+}
+
+.rollglfirst {
+    margin-top: 82px;
+    rotate: -2deg;
+    margin-left: 64px;
+}
+
+.rollglsecond {
+    margin-top: 93px;
+    rotate: -2deg;
+    margin-left: 66px;
+}
+
+
+
+
+
+
+.section-7 {
+    display: flex;
+    justify-content: center;
+}
+
+.booksevensection {
+    background: url(../img/book7section.svg) no-repeat;
+    width: 874px;
+    height: 1008px;
+}
+
+.abc {
+    font-family: "BrioniPro-Medium";
+    font-size: 160px;
+    transform: perspective(200px) rotateY(-1deg) rotateZ(8deg) rotateX(-4deg);
+    margin-top: 181px;
+    margin-left: 45px;
+}
+
+.languages {
+    font-family: "BrioniPro-Light";
+    font-size: 87px;
+    transform: perspective(360px) rotateY(-4deg) rotateZ(8.5deg) rotateX(-7deg);
+    margin-top: 70px;
+    margin-left: 37px;
+}
+
+.languages p {
+    margin-bottom: 26px;
+}
+
+#Latin {
+    margin-left: 10px;
+}
+
+#Greek {
+    margin-left: 15px;
+}
+
+.section-8 {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap;
+    margin-top: 222px;
+}
+
+.openedbook-8 {
+    background: url(../img/openedbook8section.svg) no-repeat;
+    width: 1418px;
+    height: 929px;
+}
+
+.heading {
+    font-family: "BrioniPro-Medium";
+    font-size: 64px;
+}
+
+.cyrillicletters {
+    display: flex;
+    flex-wrap: wrap;
+    width: 530px;
+    font-family: "BrioniPro-Light";
+    font-size: 47px;
+    justify-content: space-evenly;
+    margin-left: 76px;
+}
+
+
+
+
+
+.section-9 {
+    display: flex;
+    justify-content: center;
+    margin-top: 163px;
+}
+
+.closed {
+    background: url(../img/closed9book.svg) no-repeat;
+    width: 681px;
+    height: 822px;
+    margin-top: 157px;
+}
+
+.closedcontent {
+    margin-left: 21px;
+}
+
+#book {
+    font-family: "BrioniPro-Medium";
+    font-size: 32px;
+    margin-top: 21px;
+}
+
+.closedbookdescription {
+    font-family: "BrioniPro-Regular";
+    font-size: 20px;
+    line-height: 130%;
+    margin-top: 17px;
+}
+
+.closedbookdescription:first-child {
+    margin-bottom: 29px;
+}
+
+.closedcontent img {
+    margin-top: 281px;
 }

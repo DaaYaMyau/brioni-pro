@@ -71,7 +71,7 @@
 .firstpage img {
     width: 442px;
     height: 257px;
-    margin-left: 30px;    
+    margin-left: 15px;    
 }
 
 .secondpage {
@@ -83,7 +83,7 @@
 
 .secondpage p {
     font-size: 32px;
-    transform: perspective(400px) rotateY(-6deg) rotateZ(-2deg) translate(-25px,0);
+    transform: perspective(400px) rotateY(-5deg) rotateZ(-1deg) translate(-25px,0);
 }
 
 .secondpage img {
@@ -254,6 +254,7 @@ h1 {
 
 .section-6 {
     margin-top: 126px;
+    box-sizing: var();
 }
 
 .section-6 hr {
@@ -261,10 +262,17 @@ h1 {
     width: 1440px;
     margin-left: -60px;
     margin-bottom: 12px;
+    position: relative;
+    z-index: 1;
+}
+
+.section-6 h1 {
+    margin-bottom: 61px;
 }
 
 .booksdesk {
     display: flex;
+    align-items: flex-end;
 }
 
 .blackbook {
@@ -277,7 +285,6 @@ h1 {
     width: 79px;
     writing-mode: vertical-rl;
     rotate: -180deg;
-    align-items: ;
 }
 
 .graybook {
@@ -298,8 +305,41 @@ h1 {
     color: #6D6E71;
 } 
 
+.graybook p {
+    font-family: "BrioniPro-Regular";
+    font-size: 22px;
+    color: black;
+}
+
+.short{
+    justify-content: flex-end;
+}
+
+.short p{
+    writing-mode: horizontal-tb;
+    rotate: -180deg;
+    text-align: center;
+    font-size: 32px;
+    padding-top: 18px;
+}
+
 .horizontalbooks {
     background: url(../img/horizontalbook.svg) no-repeat;
+    width: 371px;
+    height: 134px;
+    font-family: "BrioniPro-Regular";
+    font-size: 22px;
+    color: #6D6E71;
+}
+
+.horizontalbooks p:first-child {
+    margin-top: 31px;
+    margin-left: 45px;
+}
+
+.horizontalbooks p:last-child {
+    margin-top: 38px;
+    margin-left: 45px;
 }
 
 

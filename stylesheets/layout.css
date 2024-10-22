@@ -252,6 +252,61 @@ h1 {
     margin-left: 66px;
 }
 
+.section-6 {
+    margin-top: 126px;
+}
+
+/* .section-6 hr {
+    border: 15px solid black;
+    width: 1440px;
+    margin-left: -60px;
+    margin-top: 278px;
+}
+
+.firstlevel {
+    display: flex;
+    flex-direction: column;
+    align-content: first baseline;
+}
+
+.blackbook {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap; 
+    rotate: -90deg;
+    margin-right: 11px;
+}
+
+.blackbook p {
+    font-family: "BrioniPro-Regular";
+    font-size: 22px;
+    color: #6D6E71;
+}  */
+
+
+
+
+
+.firstlevel {
+    margin-top: 61px;
+    background: url(../img/firstlevel.svg) no-repeat;
+    width: 1451px;
+    height: 217px;
+    margin-left: -60px;
+}
+
+.gray {
+    font-family: "BrioniPro-Regular";
+    font-size: 22px;
+    color: #6D6E71;
+    rotate: -90deg;
+    width: 132px;
+    height: 26px;
+    margin-left: 50px;
+    transform: translateX(-110px);
+}
 
 
 
@@ -260,6 +315,7 @@ h1 {
 .section-7 {
     display: flex;
     justify-content: center;
+    margin-top: 218px;
 }
 
 .booksevensection {
@@ -271,7 +327,7 @@ h1 {
 .abc {
     font-family: "BrioniPro-Medium";
     font-size: 160px;
-    transform: perspective(200px) rotateY(-1deg) rotateZ(8deg) rotateX(-4deg);
+    transform: perspective(200px) rotateY(-1deg) rotateZ(7deg) rotateX(-4deg);
     margin-top: 181px;
     margin-left: 45px;
 }
@@ -279,7 +335,7 @@ h1 {
 .languages {
     font-family: "BrioniPro-Light";
     font-size: 87px;
-    transform: perspective(360px) rotateY(-4deg) rotateZ(8.5deg) rotateX(-7deg);
+    transform: perspective(360px) rotateY(-4deg) rotateZ(9deg) rotateX(-7deg);
     margin-top: 70px;
     margin-left: 37px;
 }
@@ -307,12 +363,21 @@ h1 {
 .openedbook-8 {
     background: url(../img/openedbook8section.svg) no-repeat;
     width: 1418px;
-    height: 929px;
+    height: 932px;
+    display: flex;
+    flex-direction: row;
+}
+
+.firstpageABC {
+    margin-right: 149px;
+    margin-left: 71px;
+    margin-top: 60px;
 }
 
 .heading {
     font-family: "BrioniPro-Medium";
     font-size: 64px;
+    margin-bottom: 28px;
 }
 
 .cyrillicletters {
@@ -321,18 +386,96 @@ h1 {
     width: 530px;
     font-family: "BrioniPro-Light";
     font-size: 47px;
-    justify-content: space-evenly;
-    margin-left: 76px;
 }
 
+.cyrillicletters p {
+    margin-right: 13px;
+    margin-bottom: 3px;
+}
 
+.ABCbigletters {
+    font-family: "BrioniPro-Light";
+    font-size: 285px;
+    display: flex;
+    flex-direction: row;
+}
+
+.ABCbigletters p:first-child {
+    margin-top: 52px;
+}
+
+.ABCbigletters p:last-child {
+    margin-top: 115px;
+    margin-left: 90px;
+}
+
+.firstcircle {
+    width: 90px;
+    height: 90px;
+    border: 3px solid black;
+    border-radius: 50%;
+    margin-top: -347px;
+    margin-left: -1px;
+}
+
+.secondcircle {
+    width: 90px;
+    height: 90px;
+    border: 3px solid black;
+    border-radius: 50%;
+    margin-top: 85px;
+    margin-left: 210px;
+}
+
+.thirdcircle {
+    width: 150px;
+    height: 150px;
+    border: 3px solid black;
+    border-radius: 50%;
+    margin-left: 367px;
+    margin-top: -214px;
+}
+
+.secondpageABC {
+    margin-top: 60px;
+}
+
+.latinletters {
+    display: flex;
+    flex-wrap: wrap;
+    width: 477px;
+    font-family: "BrioniPro-Light";
+    font-size: 47px;
+}
+
+.latinletters p {
+    margin-right: 13px;
+    margin-bottom: 3px;
+}
+
+.greekletters {
+    display: flex;
+    flex-wrap: wrap;
+    width: 520px;
+    font-family: "BrioniPro-Light";
+    font-size: 47px;
+}
+
+.greekletters p {
+    margin-right: 13px;
+    margin-bottom: 3px;
+}
+
+.greekblock {
+    margin-top: 105px;
+}
 
 
 
 .section-9 {
     display: flex;
     justify-content: center;
-    margin-top: 163px;
+    margin-top: 35px;
 }
 
 .closed {
@@ -394,13 +537,14 @@ h1 {
     margin-top: 137px;
 }
 
-.section-10 {
+.footer {
     display: flex;
     flex-direction: row;
     font-family: "BrioniPro-Regular";
     font-size: 48px;
+    margin-top: 10px;
 }
 
-.section-10 p:first-child {
+.footer p:first-child {
     margin-right: 780px;
 }

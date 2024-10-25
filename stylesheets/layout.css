@@ -55,6 +55,7 @@
 .firstpage p {
     font-size: 32px;
 	transform: perspective(400px) rotateY(5deg) rotateZ(2.5deg);
+    line-height: 107%;
 }
 
 .firstpage img {
@@ -72,6 +73,7 @@
 .secondpage p {
     font-size: 32px;
     transform: perspective(400px) rotateY(-5deg) rotateZ(-1deg) translate(-25px,0);
+    line-height: 107%;
 }
 
 .secondpage img {
@@ -97,6 +99,7 @@ h1 {
     font-family: "BrioniPro-Light";
     font-size: 28px;
     margin-top: 11px;
+    line-height: 115%;
 }
 
 .second_columnauthors p {
@@ -104,6 +107,7 @@ h1 {
     font-size: 28px;
     margin-top: 14px;
     margin-left: 290px;
+    line-height: 115%;
 }
 
 .authorsimg{
@@ -221,6 +225,7 @@ h1 {
     margin-top: 130px;
     margin-left: 51px;
     rotate: -3deg;
+    line-height: 115%;
 }
 
 .rollglfirst, .rollglsecond {
@@ -433,7 +438,14 @@ h1 {
     border-radius: 50%;
     margin-top: -347px;
     margin-left: -1px;
+    position: relative;
+    z-index: 1;
+    transition: transform 0.3s ease;
 }
+
+  .firstcircle:hover {
+    transform: scale(1.5); 
+  }
 
 .secondcircle {
     width: 90px;
@@ -442,7 +454,14 @@ h1 {
     border-radius: 50%;
     margin-top: 85px;
     margin-left: 210px;
+    position: relative;
+    z-index: 1;
+    transition: transform 0.3s ease;
 }
+
+.secondcircle:hover {
+    transform: scale(1.5); 
+  }
 
 .thirdcircle {
     width: 150px;
@@ -451,7 +470,14 @@ h1 {
     border-radius: 50%;
     margin-left: 367px;
     margin-top: -214px;
+    position: relative;
+    z-index: 1;
+    transition: transform 0.3s ease;
 }
+
+.thirdcircle:hover {
+    transform: scale(1.5); 
+  }
 
 .secondpageABC {
     margin-top: 60px;
@@ -530,7 +556,6 @@ h1 {
     height: 487px;
     rotate: 22deg;
     margin-top: 244px;
-    /* margin-right: -400px; */
     transform: translateX(185px) translateY(30px);
 }
 

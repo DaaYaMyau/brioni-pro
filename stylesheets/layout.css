@@ -58,12 +58,6 @@
     line-height: 107%;
 }
 
-/* .firstpage img {
-    width: 442px;
-    height: 257px;
-    margin-left: 15px;    
-} */
-
 .circlep {
     font-family: "BrioniPro-BoldItalic";
     font-size: 200px;
@@ -82,7 +76,7 @@
 }
 
 .circlepagesfirst:hover {
-    transform: scale(1.5); 
+    transform: scale(1.4); 
   }
 
 .circlepagessecond {
@@ -98,7 +92,7 @@
 }
 
 .circlepagessecond:hover {
-    transform: scale(1.5); 
+    transform: scale(1.2); 
   }
 
 .secondpage {
@@ -133,14 +127,9 @@
 }
 
 .circlepagesthird:hover {
-    transform: scale(1.5); 
+    transform: scale(1.2); 
   }
 
-/* .secondpage img {
-    width: 430px;
-    height: 114px;
-    margin-top: 125px;
-} */
 
 .section-3 {
     margin: 123px -60px 0px -60px;

@@ -406,7 +406,7 @@ h1 {
 .languages {
     font-family: "BrioniPro-Light";
     font-size: 87px;
-    transform: perspective(360px) rotateY(-4deg) rotateZ(9deg) rotateX(-7deg);
+    transform: perspective(360px) rotateY(-2deg) rotateZ(8deg) rotateX(-8deg);
     margin-top: 70px;
     margin-left: 37px;
 }
